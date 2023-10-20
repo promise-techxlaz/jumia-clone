@@ -1,0 +1,556 @@
+*, *::before, *::after{
+   box-sizing: border-box;
+   }
+ body{
+    margin:0px;
+    
+    
+ }
+
+.top_nav{
+   display:flex;
+   Flex-direction:row;
+   Align-items:center;
+   Justify-content :space-between ;
+   height:5vh;
+   margin:15px;
+   }
+.top_nav a{
+   Color :black;
+}
+.top_nav a:nth(3){
+   Flex-basis:80%;
+   color:red;
+}
+
+.top_nav a:first-child {
+   Width :10px;
+   color:black;
+   
+}
+.top_nav img{
+   Flex-basis :10%;
+}
+.top_nav>span{
+   display:inline-flex;
+  Align-items :center;
+  Justify-content :space-between ;
+}
+.top_nav>span>img{
+   margin:10px;
+}
+.top_nav>span:last-child > a{
+   Margin-left: 20px;
+   display: inline-block;
+}
+.top_nav h2{
+   Margin-right:150px;
+   Font-family :san-serif ;
+}
+
+  .top_search{
+     display :flex;
+     background-color :blue
+     Padding:10px 20px;
+     Align-items :right;
+  }
+
+
+Input{
+   display:absolute;  
+   Padding :10px 30px;
+   border-radius :50px ;
+   Border:1px solid black;
+   Width:100%;
+   margin :7px ;
+}
+
+.top_search{
+  position :relative;
+}
+.top_search>span{
+   color:black;
+   position:absolute;
+   margin-top:17px ;
+   Margin-left:18px;
+}
+.top_search > a{
+   Display :flex;
+   Color:red;
+   Margin-left:20px;
+   text-decoration :none;
+}
+.btn-av{
+   Background-color :grey ;
+}
+.top search.span{
+   Color :red;
+}
+.fas fa-search{
+   Color:red;
+}
+.number{
+   background-color :FFD8B1;
+  Text-align :center;
+  
+}
+.main_img img{
+   Width:100%;
+   height:200px;
+   Border-bottom:10px solid silver;
+}
+main{
+   Background-color : rgb(230, 230,230);
+   Padding-bottom:5px;
+   
+}
+   
+   P{
+      margin-top :5px;
+      Text-align :center;
+   }
+Main >.first{
+   display :flex;   
+   Overflow: auto;
+   flex-flow: row wrap;
+   Justify-content: space-around;
+   Padding: 20px 0px;
+   Background-color :white ;
+   margin-bottom :10px;
+}
+Main >.first> span 
+{
+   Flex-basis: 15%;
+}
+Main >.first> span > p
+{
+   Font-size: 10px;
+}
+Main >.first> span > Img
+{
+   Width: 85px;
+   Height: 85px;
+   Border-radius: 8px;
+}
+
+Main >.second{
+   display :flex;
+   Overflow :auto;
+   flex-flow :row wrap;
+   Justify-content :space-around ;
+   Padding:20px 0px;
+   Margin-bottom :10px;
+   background-color :white;
+   
+}
+
+Main>.second>span{
+   flex-basis :10%;
+}
+Main>.second > span > p{
+   Font-size :15px;
+}
+Main>.second >span > img {
+   Width :85px;
+   height:85px;
+   Border-radius :8px;
+   
+}
+.Red{
+  Background-color :red;
+   
+}
+.Red >.Flex{
+   Display :flex ;
+   Justify-content :space-between ;
+   Align-items :center ;
+   
+}
+
+.Flex >span{
+   Color :yellow;
+   Font-size :30px;
+   Margin-left:10px;
+   Margin-top :15px;
+}
+.Flex >a{
+   Text-decoration :none;
+   Margin-right :10px;
+   Font-size :12px;
+   Color:white;
+}
+.Red >.Flex>h4{
+   Flex-basis :70%;
+   Color :white;
+}
+
+.Red >.Time{
+   Font-size :12px;
+   Margin-left:35px;
+   Margin-bottom:10px;
+   Color :white ;
+}
+Main >.third{
+   background-color :white;
+   display :flex ;
+   Justify-content :flex-start ;
+   Padding-top :20px;
+   Padding-bottom:20px;
+   Overflow-x: auto;
+}
+Main >.third >span{
+ Margin: 0px 10px;
+
+}
+Main > .third > span > img 
+{
+   Width: 150px;
+   Height: 150px;
+}
+.third > span >.corn{
+   background-color :red;
+   Width:100%;
+   height:3% ;
+   border-radius :20px;
+   
+}
+.third > span >.corn >.maze{
+   Width:70%;
+   height:100%;
+   background-color :orange;
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px;
+  
+}
+.third >span >.items{
+Margin-right :60px ;
+Font-size:18px;
+Font-weight :bold;
+}
+.third >span >.Nitems{
+text-align :left;
+Font-size:12px;
+}
+.four{
+display :flex;
+Flex-flow:row wrap;
+Justify-content :space-around ;
+Margin-bottom:5px;
+background-color :#FAF9F6;
+}
+.four >span >img{
+   Width  :180px;
+   height:150px;
+   Border-radius :10px;
+   
+   
+}
+.four >span{
+   Margin-top :5px ;
+   Background-color :white;
+   Height :210px ;
+   Border-radius :5px;
+  
+   
+}
+.four >span >.ben{
+   Font-size :12px;
+}
+.four >span >.bon{
+   Font-weight:bold;
+}
+.still{
+   display :flex ;
+   Padding:2px;
+   Justify-content :space-between ;
+   Align-items :center ;
+}
+.still > p{
+  margin-top :10px;
+  margin-left :10px;
+  
+}
+.still >a{
+   Text-decoration :none;
+   color:black;
+   Font-size :12px;
+   Margin-right:10px;
+}
+.stock{
+   display :flex;
+   Justify-content :space-between ;
+   Align-items :center;
+   Background-color :#FFD8B1;
+  
+}
+.stock >.stick{
+   Margin-left :10px;
+   margin-top :10px;
+}
+.stock > a{
+   text-decoration :none;
+   Margin-right:10px;
+   Font-size :12px;
+   color:black;
+}
+Main >.five{
+   background-color :#FAF9F6;
+   display :flex ;
+   Justify-content :flex-start ;
+   Padding-top :20px;
+   Padding-bottom:20px;
+   Overflow-x: auto;
+}
+Main >.five >span{
+   Background-color :white;
+   Width:200px ;
+   height:210px ;
+   Margin :10px;
+}
+.five > span >.kims{
+   Font-size:12px;
+}
+.five > span >.nims{
+   Font-weight :bold;
+}
+
+ Main>.five >span >img{
+    Width:170px;
+    height:150px;
+   
+ }
+
+Main >.six{
+   display:flex;
+   Justify-content :space-around ; 
+   Align-items :center;
+   background-color:white;
+   Margin-bottom:20px;
+}
+Main >.six >span{
+   Margin:10px;
+}
+Main >.six >span >img{
+   Width:120px ;
+   height:180px;
+   border-radius :5px;
+}
+Main >.scale{
+   Background-color :#87CEEB;
+   Padding :2px;
+   Text-align :center;
+}
+.scale >.deals{
+   Font-weight :bold;
+   Margin-top :12px;
+}
+Main >.seven{
+   background-color :#FAF9F6;
+   display :flex ;
+   Justify-content :flex-start ;
+   Padding-top :20px;
+   Padding-bottom:20px;
+   Overflow-x: auto;
+   Margin-bottom:5px;
+
+}
+.seven >span{
+   Background-color :white;
+   Width:200px ;
+   height:210px ;
+   Margin :10px;
+}
+.seven > span >img{
+   Width  :160px;
+   height:150px;
+   Border-radius :10px;
+   
+}
+.seven >span >.kan{
+   Font-size :12px;
+}
+.seven >span >.ken{
+   Font-weight :bold;
+}
+.grocery{
+   Background-color :#87CEEB;
+   display :flex;
+   Justify-content :space-between ;
+   Align-items :center;
+   
+}
+.grocery >.gross{
+   Margin-top :10px;
+   Margin-left :10px;
+}
+.grocery > a{
+   font-size:12px ;
+   text-decoration :none;
+   color:black;
+   Margin-right :10px;
+}
+Main>.eight{
+   display:flex;
+   Justify-content :space-around ; 
+   Align-items :center;
+   background-color:white;
+   Margin-bottom:20px;
+   Margin-top :5px;
+   
+}
+Main>.eight >span{
+   Margin :10px;
+}
+Main >.eight>span >img{
+   Width:120px ;
+   height:180px;
+   Border-radius :5px;
+    
+}
+Main >.health{
+   background-color :FFD8B1;
+   Justify-content :center ;
+   Align-items :center;
+   Padding:1px;
+}
+Main >.health >p{
+   Margin-top :20px;
+   Font-weight :bold;
+}
+Main >.nine{
+   background-color :#FAF9F6;
+   display :flex ;
+   Justify-content :flex-start ;
+   Padding-top :20px;
+   Padding-bottom:20px;
+   Overflow-x: auto;
+   Margin-bottom:5px;
+
+}
+Main>.nine >span{
+   Background-color :white;
+   Width:200px ;
+   height:210px ;
+   Margin :10px;
+}
+Main >.nine >span >img {
+   Width  :160px;
+   height:150px;
+   Border-radius :10px;
+   
+}
+.nine >span >.ken{
+   Font-weight:bold;
+}
+.nine >span >.kan{
+   Font-size :12px;
+}
+Main >.ten {
+   background-color :#FAF9F6;
+   display :flex ;
+   Justify-content :flex-start ;
+   Padding-top :20px;
+   Padding-bottom:20px;
+   Overflow-x: auto;
+   Margin-bottom:5px;
+
+}
+Main >.ten>span {
+   Background-color :white;
+   Width:200px ;
+   height:210px ;
+   Margin :10px;
+
+}
+Main >.ten >span >img {
+   Width:160px;
+   height:150px;
+   Border-radius :5px;
+}
+.ten >span >.ken{
+   Font-weight:bold;
+}
+.ten >span >.kan{
+   Font-size :12px;
+}
+.dream {
+   Display:flex;
+   Justify-content :space-between ;
+   Align-items :center;
+   Text-align :center;
+   Background-color :#CCE1EB;
+}
+.dream >a{
+   Text-decoration :none;
+   Font-size:15px;
+   Color :black;
+   Margin-right :10px;
+}
+.dream >p{
+  Margin-top :10px;
+  Margin-left :10px;
+}
+
+
+Main >.eleven{
+   Padding:10px;
+   Background-color :FFFFFF;
+   Margin-bottom:10px;
+}
+
+Main >.eleven >p{
+   Text-align :left;
+    Font-size :12px;
+}
+Main >.eleven >div{
+   Text-align :center;
+  
+}
+Main >.eleven >div >a{
+   Text-decoration :none;
+   Color:#EC9706;
+   Font-weight:600;
+   Font-size :13px;
+}
+footer{
+   Margin :0px ;
+   Background-color :yellow;
+}
+footer >.btp{
+   text-align :center;
+   display :flex ;
+   Flex-direction :column;
+   Background-color :#3b3b3b;
+   Color:white;
+  Padding:5px 0px 0px 0px ;
+}
+footer >.btp >a{
+   Text-decoration :none;
+   Font-size:13px;
+   Color:white ;
+}
+footer > .links {
+   display :flex;
+   Justify-content :center;
+   Align-items :center;
+   flex-wrap:wrap ;
+   Background-color :black;
+   Padding: 10px 0px;
+   Background-color: #313133;
+}
+footer >div >a{
+   text-decoration :none;
+   Margin :10px;
+   Font-size :12px;
+   Color :white;
+}
+.footer_bottom{
+   Background-color :#313133;
+   Border-top :1px solid #767678;
+   Text-align :center;
+}
+.footer_bottom >p{
+   Color : #767678 ;
+   Padding:10px;
+}
+
